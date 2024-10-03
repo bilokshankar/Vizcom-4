@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Adder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <!-- <header id="navbar">
+        <h1>NUMBER ADDER</h1>
+        <ul>
+            <li>ITEM 1</li>
+            <li>ITEM 2</li>
+            <li>ITEM 3</li>
+        </ul>
+    </header> -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Number Adder</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              Item 1
+            </li> &nbsp;&nbsp;&nbsp;
+            <li class="nav-item">
+              Item2
+            </li>&nbsp;&nbsp;&nbsp;
+            <li>
+                Item3
+            </li>  
+          </ul>
+        </div>
+      </nav>
+
+
+        <div id="main-container">
+            <div class="sidebar left-sidebar">
+                <h2>TOTAL</h2>
+                <div id="result">0</div><br/>
+                <div id="status">The Total is Zero</div><br/>
+                <div>
+                    <h4>History</h4>
+                    <p>Total addition:&nbsp;<span id="totaladdn">0</span></p>
+                    <p>Total substraction: &nbsp;<span id="totalsubstr">0</span></p>
+                    <div id="history">0</div>
+                </div>
+            </div>
+            <div class="content-area">
+                <div class="sidebar right-sidebar">
+                    <h2>LET'S ADD</h2>
+                    <div class="buttons">
+                        <button class="control-btn" id="minus-two">-2</button>
+                        <button class="control-btn" id="minus-one">-1</button>
+                        <button class="control-btn" id="reset">Reset</button>
+                        <button class="control-btn" id="plus-one">+1</button>
+                        <button class="control-btn" id="plus-two">+2</button>
+                    </div><br/>
+                    <div>
+                        <button class="btn btn-primary" id="clear-data">Clear History and Results</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+</html>
